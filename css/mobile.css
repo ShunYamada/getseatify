@@ -1,0 +1,27 @@
+@media screen and (max-width: 540px) {
+  .main .wrapper {
+    flex-wrap: wrap-reverse;
+  }
+  .main_image {
+    overflow: hidden;
+    height: 340px;
+    margin-top: 30px;
+  }
+  .main_text {
+    text-align: center;
+    padding-top: 20px;
+  }
+  .howto .wrapper, .feature .wrapper {
+    display: block;
+  }
+  .howto_item, .feature_item {
+    flex: none;
+    padding: 10px 0;
+  }
+  .howto_item p, .feature_item p {
+    padding: 0 10px;
+  }
+  form {
+    width: 100%;;
+  }
+}

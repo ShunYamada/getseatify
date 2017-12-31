@@ -1,0 +1,145 @@
+.main_btn img {
+  opacity: 0.2;
+}
+
+html, body {
+  font-family: Arial;
+}
+strong {
+  font-weight: bold;
+}
+
+.header {
+  padding: 15px 0;
+}
+.logo img {
+  width: 35px;
+  vertical-align: middle;
+}
+.logo span {
+  font-size: 22px;
+  margin-left: 10px;
+  vertical-align: middle;
+  color: #949499;
+}
+
+.wrapper {
+  display: flex;
+}
+.around {
+  justify-content: space-around;
+}
+.between {
+  justify-content: space-between;
+}
+.main_text {
+  padding-top: 100px;
+}
+.main_text h2 {
+  font-size: 36px;
+  font-weight: bold;
+}
+.main_text p {
+  font-size: 24px;
+  color: #949499;
+}
+.main_image img {
+  width: 360px;
+}
+.main_btn {
+  margin-top: 54px;
+}
+.main_btn a img {
+  height: 40px;
+  margin-right: 10px;
+}
+.main_btn a:hover {
+  opacity: 0.8;
+}
+
+.howto {
+  padding: 60px 0;
+}
+.howto_item {
+  flex: 1;
+  text-align: center;
+}
+.howto_item img {
+  width: 240px;
+  margin: 15px 0;
+}
+.howto_item p {
+  font-size: 18px;
+  padding: 0 30px;
+  color: #949499;
+}
+.feature {
+  background: #00b4e0;
+  padding: 30px 0;
+}
+.feature h2 {
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+}
+.feature_item {
+  flex: 1;
+  text-align: center;
+}
+.feature_item img {
+  width: 120px;
+  padding: 30px 0;
+}
+.feature_item p {
+  font-size: 18px;
+  color: #fff;
+  padding: 0 30px;
+}
+.team {
+  padding: 30px 0 60px 0;
+}
+.team_item {
+  flex: 1;
+  text-align: center;
+}
+.team h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.team_item img {
+  width: 150px;
+  border-radius: 50%;
+}
+.account img {
+  width: 24px;
+}
+.account img:hover {
+  opacity: 0.8;
+}
+.account span a {
+  text-decoration: none;
+}
+
+.contact {
+  padding: 30px 0 60px 0;
+}
+form {
+  width: 720px;
+  margin: 0 auto;
+}
+.submit {
+  width: 100%;
+  background: #00b4e0;
+  color: #fff;
+}
+.submit:hover {
+  color: #fff;
+  opacity: 0.8;
+}
+
+.footer {
+  background: #00b4e0;
+  color: #fff;
+  padding : 15px;
+  text-align: center;
+}
